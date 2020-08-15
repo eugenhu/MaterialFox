@@ -1,19 +1,17 @@
 /* light mode */
-:root:not([style]),
-:root[style*="--lwt-accent-color:rgb(227, 228, 230);"],
-:root[style*="--lwt-accent-color:white;"]
+:root
 {
 	/* accentcolor */
-	--lwt-accent-color: #dee1e6 !important;
+	/* --lwt-accent-color: #dee1e6 !important; */
 	
 	/* textcolor */
-	--lwt-text-color: #606368 !important;
+	/* --lwt-text-color: #606368 !important; */
 	
 	/* toolbar */
 	--toolbar-bgcolor: #fff !important;
 	
 	/* toolbar_text */
-	--toolbar-color: #606368 !important;
+	/* --toolbar-color: #606368 !important; */
 	
 	/* toolbar_bottom_separator */
 	--toolbox-border-bottom-color: #b3b1b3 !important; /* legacy */
@@ -44,7 +42,7 @@
 
 /* dark mode */
 :root[style*="--lwt-accent-color:rgb(12, 12, 13);"],
-:root[privatebrowsingmode=temporary]
+/* :root[privatebrowsingmode=temporary] */
 {
 	/* accentcolor */
 	--lwt-accent-color: #202124 !important;
