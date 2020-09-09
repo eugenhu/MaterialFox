@@ -173,7 +173,7 @@
 .tabbrowser-tab::after,
 .tab-line
 {
-	display: none !important;
+	opacity: 0 !important;
 }
 
 /* tab background color */
